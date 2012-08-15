@@ -1,20 +1,23 @@
 {
-  "description": "",
-  "version": "0.0.0",
+  "name": "FlatironExample",
+  "author": "Wyatt",
+  "homepage": "http://kittenbubbles.com",
+  "description": "An example app using flatiron and auth-server",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "union": "0.3.0",
-    "flatiron": "0.2.5"
+    "flatiron": "*",
+    "restful": "*",
+    "nconf": "*",
+    "resourceful": "*",
+    "union": "*",
+    "string": "*"
   },
   "devDependencies": {
-    "api-easy": "0.3.2",
-    "vows": "0.6.1"
+    "mocha": "*",
+    "chai": "*"
   },
   "scripts": {
-    "test": "vows --spec",
     "start": "node ./lib/app.js"
-  },
-  "name": "TestApp",
-  "author": "Wyatt",
-  "homepage": ""
+  }
 }

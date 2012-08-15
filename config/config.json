@@ -1,2 +1,10 @@
 {
+	"routes": {
+		"/": {
+			"template": "home"
+		},
+		"users": {
+			"template": "users.list"
+		}
+	}
 }
